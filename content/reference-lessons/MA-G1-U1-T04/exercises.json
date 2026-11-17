@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.0",
+  "lesson_id": "MA-G1-U1-T04-L01",
+  "status": "draft_pending_review",
+  "mastery": {
+    "graded_items": 5,
+    "mastered_min_correct": 4,
+    "developing_min_correct": 3
+  },
+  "items": [
+    {
+      "id": "GUIDED-01",
+      "mode": "guided",
+      "type": "compare_collections",
+      "left": { "asset": "apple", "count": 3 },
+      "right": { "asset": "apple", "count": 5 },
+      "prompt": { "ar": "أي مجموعة فيها أكثر؟", "fr": "Quel groupe en contient le plus ?" },
+      "choices": ["left", "right", "equal"],
+      "answer": "right",
+      "hint_strategy": "pair_items"
+    },
+    {
+      "id": "GUIDED-02",
+      "mode": "guided",
+      "type": "compare_collections",
+      "left": { "asset": "star-small", "count": 4, "layout": "compact" },
+      "right": { "asset": "star-large", "count": 4, "layout": "spread" },
+      "prompt": { "ar": "هل المجموعتان متساويتان؟", "fr": "Les deux groupes en contiennent-ils autant ?" },
+      "choices": ["yes", "no"],
+      "answer": "yes",
+      "hint_strategy": "pair_items"
+    },
+    {
+      "id": "GUIDED-03",
+      "mode": "guided",
+      "type": "relation_word",
+      "left": { "asset": "dot", "count": 2 },
+      "right": { "asset": "dot", "count": 4 },
+      "prompt": { "ar": "اثنان ... من أربعة", "fr": "Deux, c’est ... que quatre" },
+      "choices": [
+        { "value": "less", "label": { "ar": "أقل", "fr": "moins" } },
+        { "value": "more", "label": { "ar": "أكثر", "fr": "plus" } },
+        { "value": "equal", "label": { "ar": "نفس العدد", "fr": "autant" } }
+      ],
+      "answer": "less",
+      "hint_strategy": "show_counts"
+    },
+    {
+      "id": "GUIDED-04",
+      "mode": "guided",
+      "type": "compare_numbers",
+      "left": 5,
+      "right": 3,
+      "prompt": { "ar": "أي عدد أكبر؟", "fr": "Quel nombre est le plus grand ?" },
+      "choices": [5, 3],
+      "answer": 5,
+      "hint_strategy": "show_dot_representation"
+    },
+    {
+      "id": "CHECK-01",
+      "mode": "graded",
+      "type": "compare_collections",
+      "left": { "asset": "block", "count": 1 },
+      "right": { "asset": "block", "count": 3 },
+      "choices": ["left", "right", "equal"],
+      "answer": "right",
+      "competency": "compare_quantities"
+    },
+    {
+      "id": "CHECK-02",
+      "mode": "graded",
+      "type": "compare_collections",
+      "left": { "asset": "circle", "count": 5, "layout": "compact" },
+      "right": { "asset": "circle", "count": 5, "layout": "spread" },
+      "choices": ["left", "right", "equal"],
+      "answer": "equal",
+      "competency": "recognize_equal_quantities"
+    },
+    {
+      "id": "CHECK-03",
+      "mode": "graded",
+      "type": "relation_word",
+      "left": 3,
+      "right": 4,
+      "choices": ["less", "more", "equal"],
+      "answer": "less",
+      "competency": "compare_numbers"
+    },
+    {
+      "id": "CHECK-04",
+      "mode": "graded",
+      "type": "compare_numbers",
+      "left": 2,
+      "right": 1,
+      "choices": [2, 1],
+      "answer": 2,
+      "competency": "compare_numbers"
+    },
+    {
+      "id": "CHECK-05",
+      "mode": "graded",
+      "type": "select_relation",
+      "left": { "asset": "apple", "count": 4 },
+      "right": { "asset": "apple", "count": 4 },
+      "choices": ["less", "more", "equal"],
+      "answer": "equal",
+      "competency": "recognize_equal_quantities"
+    }
+  ]
+}

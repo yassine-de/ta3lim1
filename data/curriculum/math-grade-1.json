@@ -1,0 +1,99 @@
+{
+  "schema_version": "0.1.0",
+  "status": "draft_pending_pedagogical_review",
+  "source": {
+    "id": "CURR-MA-PRIMARY-2021",
+    "title_ar": "المنهاج الدراسي للتعليم الابتدائي – الصيغة النهائية الكاملة",
+    "issuer_ar": "مديرية المناهج",
+    "issued": "2021-07",
+    "reference_pages": "295-301",
+    "url": "https://www.ostad.ma/wp-content/uploads/2021/07/المنهاج-الدراسي-للتعليم-الابتدائي.pdf",
+    "official_host_copy_verified": false
+  },
+  "curriculum": {
+    "country_code": "MA",
+    "stage": "primary",
+    "grade": 1,
+    "subject_code": "MATH",
+    "languages": ["ar", "fr"],
+    "domains": [
+      { "code": "NUM", "title_ar": "الأعداد والحساب", "title_fr": "Nombres et calcul" },
+      { "code": "GEO", "title_ar": "الهندسة", "title_fr": "Géométrie" },
+      { "code": "MEA", "title_ar": "القياس", "title_fr": "Grandeurs et mesures" },
+      { "code": "DAT", "title_ar": "تنظيم ومعالجة البيانات", "title_fr": "Organisation et traitement des données" }
+    ],
+    "cross_cutting": [
+      { "code": "PS", "title_ar": "حل المسائل", "title_fr": "Résolution de problèmes" }
+    ],
+    "units": [
+      {
+        "number": 1,
+        "weeks": [2, 3, 4, 5],
+        "topics": [
+          { "id": "MA-G1-U1-T01", "week": 2, "domain": "MEA", "title_ar": "تصنيف الأشياء حسب خاصيات اللون والشكل والحجم والطول", "title_fr": "Classer des objets selon la couleur, la forme, la taille et la longueur" },
+          { "id": "MA-G1-U1-T02", "week": 3, "domain": "NUM", "title_ar": "التواصل حدا بحد", "title_fr": "Correspondance terme à terme" },
+          { "id": "MA-G1-U1-T03", "week": 4, "domain": "NUM", "title_ar": "تقديم الأعداد من 1 إلى 5 قراءة وكتابة وتمثيلا", "title_fr": "Découvrir, lire, écrire et représenter les nombres de 1 à 5" },
+          { "id": "MA-G1-U1-T04", "week": 5, "domain": "NUM", "title_ar": "مقارنة وترتيب الأعداد من 1 إلى 5", "title_fr": "Comparer et ordonner les nombres de 1 à 5", "reference_topic_candidate": true }
+        ]
+      },
+      {
+        "number": 2,
+        "weeks": [7, 8, 9, 10],
+        "topics": [
+          { "id": "MA-G1-U2-T01", "week": 7, "domain": "GEO", "title_ar": "التوضع في المكان: داخل، خارج، تحت، فوق، على، أسفل، أعلى", "title_fr": "Se repérer dans l’espace" },
+          { "id": "MA-G1-U2-T02", "week": 8, "domain": "NUM", "title_ar": "الكتابة الجمعية من 1 إلى 5", "title_fr": "Décomposer les nombres de 1 à 5 par addition" },
+          { "id": "MA-G1-U2-T03", "week": 9, "domain": "NUM", "title_ar": "تقديم الأعداد من 6 إلى 9", "title_fr": "Découvrir, lire, écrire et représenter les nombres de 6 à 9" },
+          { "id": "MA-G1-U2-T04", "week": 10, "domain": "NUM", "title_ar": "مقارنة وترتيب الأعداد من 1 إلى 9", "title_fr": "Comparer et ordonner les nombres de 1 à 9" }
+        ]
+      },
+      {
+        "number": 3,
+        "weeks": [12, 13, 14, 15],
+        "topics": [
+          { "id": "MA-G1-U3-T01", "week": 12, "domain": "NUM", "title_ar": "حساب مجموع عددين لا يفوق مجموعهما 9", "title_fr": "Calculer une somme ne dépassant pas 9" },
+          { "id": "MA-G1-U3-T02", "week": 13, "domain": "MEA", "title_ar": "تقدير ومقارنة الأطوال", "title_fr": "Estimer et comparer des longueurs" },
+          { "id": "MA-G1-U3-T03", "week": 14, "domain": "NUM", "title_ar": "تقديم العددين 0 و10", "title_fr": "Découvrir les nombres 0 et 10" },
+          { "id": "MA-G1-U3-T04", "week": 15, "domain": "NUM", "title_ar": "مقارنة وترتيب الأعداد من 0 إلى 10", "title_fr": "Comparer et ordonner les nombres de 0 à 10" }
+        ]
+      },
+      {
+        "number": 4,
+        "weeks": [18, 19, 20, 21],
+        "topics": [
+          { "id": "MA-G1-U4-T01", "week": 18, "domain": "NUM", "title_ar": "تعرف الأعداد من 11 إلى 20 قراءة وكتابة وتمثيلا", "title_fr": "Lire, écrire et représenter les nombres de 11 à 20" },
+          { "id": "MA-G1-U4-T02", "week": 19, "domain": "NUM", "title_ar": "مقارنة وترتيب الأعداد من 0 إلى 20", "title_fr": "Comparer et ordonner les nombres de 0 à 20" },
+          { "id": "MA-G1-U4-T03", "week": 20, "domain": "GEO", "title_ar": "تصنيف المجسمات وتعرف الأشكال الهندسية", "title_fr": "Classer les solides et reconnaître les formes géométriques" },
+          { "id": "MA-G1-U4-T04", "week": 21, "domain": "NUM", "title_ar": "الجمع باعتماد التقنية الاعتيادية في نطاق الأعداد 0 إلى 20", "title_fr": "Addition posée avec les nombres de 0 à 20" }
+        ]
+      },
+      {
+        "number": 5,
+        "weeks": [23, 24, 25, 26],
+        "topics": [
+          { "id": "MA-G1-U5-T01", "week": 23, "domain": "NUM", "title_ar": "تعرف الأعداد من 21 إلى 50 ومن 51 إلى 99 قراءة وكتابة وتمثيلا", "title_fr": "Lire, écrire et représenter les nombres de 21 à 99", "source_normalization_note": "Annual table contains an apparent 51-to-50 typo; normalized using the detailed topic list." },
+          { "id": "MA-G1-U5-T02", "week": 24, "domain": "NUM", "title_ar": "مقارنة الأعداد من 0 إلى 99", "title_fr": "Comparer les nombres de 0 à 99" },
+          { "id": "MA-G1-U5-T03", "week": 24, "domain": "GEO", "title_ar": "استعمال مسطرة لرسم خط بين نقطتين", "title_fr": "Utiliser une règle pour tracer une ligne entre deux points" },
+          { "id": "MA-G1-U5-T04", "week": 25, "domain": "NUM", "title_ar": "جمع الأعداد من 0 إلى 99 دون احتفاظ", "title_fr": "Additionner jusqu’à 99 sans retenue" },
+          { "id": "MA-G1-U5-T05", "week": 25, "domain": "MEA", "title_ar": "تقدير ومقارنة كتل", "title_fr": "Estimer et comparer des masses" },
+          { "id": "MA-G1-U5-T06", "week": 26, "domain": "NUM", "title_ar": "جمع الأعداد من 0 إلى 99 بالاحتفاظ – 1", "title_fr": "Additionner jusqu’à 99 avec retenue – 1" },
+          { "id": "MA-G1-U5-T07", "week": 26, "domain": "DAT", "title_ar": "تصنيف أشياء حسب معيار واحد", "title_fr": "Classer des objets selon un critère" }
+        ]
+      },
+      {
+        "number": 6,
+        "weeks": [28, 29, 30, 31],
+        "topics": [
+          { "id": "MA-G1-U6-T01", "week": 28, "domain": "NUM", "title_ar": "جمع الأعداد من 0 إلى 99 بالاحتفاظ – 2", "title_fr": "Additionner jusqu’à 99 avec retenue – 2" },
+          { "id": "MA-G1-U6-T02", "week": 28, "domain": "MEA", "title_ar": "الزمان: تعرف اليوم، الأسبوع، الشهر، السنة", "title_fr": "Le temps : jour, semaine, mois et année" },
+          { "id": "MA-G1-U6-T03", "week": 29, "domain": "NUM", "title_ar": "تقريب مفهوم الطرح انطلاقا من أنشطة جمعية وغيرها", "title_fr": "Découvrir la soustraction à partir de l’addition et de situations concrètes" },
+          { "id": "MA-G1-U6-T04", "week": 29, "domain": "DAT", "title_ar": "تنظيم بيانات وعرضها في جدول", "title_fr": "Organiser des données et les présenter dans un tableau" },
+          { "id": "MA-G1-U6-T05", "week": 30, "domain": "NUM", "title_ar": "الطرح دون احتفاظ: التقنية الاعتيادية", "title_fr": "Soustraction posée sans retenue" },
+          { "id": "MA-G1-U6-T06", "week": 30, "domain": "GEO", "title_ar": "رسم الأشكال الهندسية باعتماد التربيعات", "title_fr": "Tracer des formes géométriques sur quadrillage" },
+          { "id": "MA-G1-U6-T07", "week": 31, "domain": "NUM", "title_ar": "حساب فرق عددين دون احتفاظ", "title_fr": "Calculer la différence de deux nombres sans retenue" },
+          { "id": "MA-G1-U6-T08", "week": 31, "domain": "MEA", "title_ar": "قراءة الساعة دون دقائق", "title_fr": "Lire les heures exactes" }
+        ]
+      }
+    ],
+    "assessment_weeks": [6, 11, 16, 17, 22, 27, 32, 33, 34]
+  }
+}
