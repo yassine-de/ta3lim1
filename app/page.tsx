@@ -88,11 +88,11 @@ export default function Home() {
           </div>
           <div className="nav-actions">
             <button className="lang" onClick={() => setLang(rtl ? "fr" : "ar")} aria-label="Changer la langue"><Languages size={17} /> {rtl ? "FR" : "العربية"}</button>
-            <a href="#" className="login">{t.login}</a><a href="/lernen" className="button small">{t.trial}</a>
+            <a href="#" className="login">{t.login}</a><a href="/start" className="button small">{t.trial}</a>
           </div>
           <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">{menuOpen ? <X /> : <Menu />}</button>
         </nav>
-        {menuOpen && <div className="mobile-menu"><a href="#methode" onClick={() => setMenuOpen(false)}>{t.nav[0]}</a><a href="#subjects" onClick={() => setMenuOpen(false)}>{t.nav[1]}</a><a href="#parents" onClick={() => setMenuOpen(false)}>{t.nav[2]}</a><button className="lang" onClick={() => { setLang(rtl ? "fr" : "ar"); setMenuOpen(false); }}><Languages size={17}/>{rtl ? "Français" : "العربية"}</button><a href="/lernen" className="button">{t.trial}</a></div>}
+        {menuOpen && <div className="mobile-menu"><a href="#methode" onClick={() => setMenuOpen(false)}>{t.nav[0]}</a><a href="#subjects" onClick={() => setMenuOpen(false)}>{t.nav[1]}</a><a href="#parents" onClick={() => setMenuOpen(false)}>{t.nav[2]}</a><button className="lang" onClick={() => { setLang(rtl ? "fr" : "ar"); setMenuOpen(false); }}><Languages size={17}/>{rtl ? "Français" : "العربية"}</button><a href="/start" className="button">{t.trial}</a></div>}
       </header>
 
       <section className="hero">
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="eyebrow"><span><Sparkles size={15}/></span>{t.eyebrow}</div>
             <h1>{t.titleA}<br/><em>{t.titleB}</em></h1>
             <p className="lead">{t.intro}</p>
-            <div className="hero-actions"><a className="button primary" href="/lernen">{t.cta}<ArrowRight size={18}/></a><a className="text-button" href="#methode"><span className="play"><Play size={15} fill="currentColor"/></span>{t.demo}</a></div>
+            <div className="hero-actions"><a className="button primary" href="/start">{t.cta}<ArrowRight size={18}/></a><a className="text-button" href="#methode"><span className="play"><Play size={15} fill="currentColor"/></span>{t.demo}</a></div>
             <p className="micro"><Check size={14}/>{t.noCard}</p>
           </div>
           <div className="hero-visual">

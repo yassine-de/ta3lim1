@@ -27,6 +27,8 @@ Status: `TODO`, `IN PROGRESS`, `BLOCKED`, `DONE`.
 | TA3-018 | P0 | Datenbankschema v1 | Curriculum, Familie, Lernen, Fortschritt, Entitlements | DONE |
 | TA3-019 | P0 | Curriculum-Seedgenerator | validierte JSON-Daten in idempotentes SQL überführen | DONE |
 | TA3-020 | P0 | Funktionaler Lernfluss-Prototyp | Themenübersicht, Erklärung, 5 Aufgaben und Ergebnis | DONE |
+| TA3-021 | P0 | Eltern-Onboarding-Prototyp | Elternname, Kind, Klasse, Sprache und Avatar lokal erfassen | DONE |
+| TA3-022 | P0 | Eltern-Dashboard-Prototyp | Profil, Kennzahlen, Lernpfad und Empfehlung anzeigen | DONE |
 
 ## Epic-Backlog MVP
 
